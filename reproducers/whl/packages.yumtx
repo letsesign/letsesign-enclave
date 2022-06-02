@@ -1,0 +1,51 @@
+104:d518d39e0d20e8542b0513cf7bb4ac7ef78eacd8
+0
+2
+amzn2-core:27876:1650999523
+installed:109:28a6d11dfd2ea9281e928b03fbcfb30d8e8c2c28
+5
+mbr: libtirpc,x86_64,0,0.2.4,0.16.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson
+  depends_on: python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a
+mbr: python3,x86_64,0,3.7.10,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a:dependson python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a:dependson python3-setuptools,noarch,0,49.1.3,1.amzn2.0.2@a:dependson python3-setuptools,noarch,0,49.1.3,1.amzn2.0.2@a:dependson
+  depends_on: python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a python3-setuptools,noarch,0,49.1.3,1.amzn2.0.2@a python3-setuptools,noarch,0,49.1.3,1.amzn2.0.2@a
+mbr: python3-setuptools,noarch,0,49.1.3,1.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python3,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a:dependson
+  depends_on: python3,x86_64,0,3.7.10,1.amzn2.0.1@a python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a python3-pip,noarch,0,20.2.2,1.amzn2.0.3@a
+mbr: python3-pip,noarch,0,20.2.2,1.amzn2.0.3 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python3,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson
+  depends_on: python3,x86_64,0,3.7.10,1.amzn2.0.1@a python3-libs,x86_64,0,3.7.10,1.amzn2.0.1@a
+mbr: python3-libs,x86_64,0,3.7.10,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python3,x86_64,0,3.7.10,1.amzn2.0.1@a:dependson
+  depends_on: python3,x86_64,0,3.7.10,1.amzn2.0.1@a

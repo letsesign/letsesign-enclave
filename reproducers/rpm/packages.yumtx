@@ -1,0 +1,40 @@
+104:d518d39e0d20e8542b0513cf7bb4ac7ef78eacd8
+0
+2
+amzn2-core:27876:1650999523
+installed:108:6f545702dd54c61b0085896019fb135ea46239af
+4
+mbr: yum-utils,noarch,0,1.1.31,46.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libxml2-python,x86_64,0,2.9.1,6.amzn2.5.4 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: yum-utils,noarch,0,1.1.31,46.amzn2.0.1@a:dependson
+  depends_on: yum-utils,noarch,0,1.1.31,46.amzn2.0.1@a
+mbr: python-kitchen,noarch,0,1.1.1,5.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: yum-utils,noarch,0,1.1.31,46.amzn2.0.1@a:dependson
+  depends_on: yum-utils,noarch,0,1.1.31,46.amzn2.0.1@a
+mbr: python-chardet,noarch,0,2.2.1,1.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python-kitchen,noarch,0,1.1.1,5.amzn2@a:dependson
+  depends_on: python-kitchen,noarch,0,1.1.1,5.amzn2@a
