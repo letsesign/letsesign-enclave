@@ -8,11 +8,13 @@
     │   ├── configs            # Config files for Let's eSign Enclave
     │   ├── packages           # Pre-built packages for Let's eSign Enclave
     │   ├── server             # Server code run within Let's eSign Enclave
-    │   └── Dockerfile
+    │   ├── Dockerfile
+    │   └── README.md
     ├── measurements           # Measurements of every Let's eSign Enclave release 
     ├── reproducers            # Containers for reproducing enclave/packages         
     ├── LICENSE
-    └── README.md
+    ├── README.md
+    └── tcb-info.json          # List of measurements that form the trusted computing base
 ```
 
 ## Introduction
